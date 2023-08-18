@@ -1,0 +1,96 @@
+.start-25{left:25%!important}
+#home {
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(250,0,0,0.4), rgba(250,0,0,0.4)), url('../images/home.jpg');
+    background-size: cover;
+}
+#home .title p:first-child{
+    font-size: 60px;
+}
+#home .open-bar , 
+#home .xmark,
+#home ul li  {
+    cursor: pointer;
+}
+
+#home .side-bar {
+    position: fixed;
+    left: -25%;
+    /* left: 0; */
+}
+
+#home ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#home ul li a:hover {
+    color: #ff0000b9;
+    transition: 1s;
+}
+
+
+#duration .articles article {
+    text-align: center;
+    margin: 0 !important;
+}
+
+
+#duration .articles article p {
+    background-color: #E68285;
+    padding-block: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+
+#duration .articles article div {
+    background-color: #CCCCCC;
+    margin: 0 !important;
+}
+
+#duration .articles article:not(:first-child) div {
+    display: none;
+}
+
+#details {
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(250,0,0,0.4), rgba(250,0,0,0.4)), url('../images/second.jpg');
+    color: #fff;
+}
+#details .container .field {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#details .container .field .number {
+    padding-inline-end: 3px;
+}
+
+#contact .icons i {
+    border: 1px solid #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#contact .icons i:hover {
+    background-color: red;
+}
+#contact form > * {
+    box-shadow: none;
+    border-radius: unset;
+}
+#contact form textarea {
+    height: 120px;
+}
